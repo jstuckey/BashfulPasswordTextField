@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0587701521EF9E000F93DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F05876F1521EF9E000F93DC /* UIKit.framework */; };
+		0F0587721521EF9E000F93DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0587711521EF9E000F93DC /* Foundation.framework */; };
+		0F0587741521EF9E000F93DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0587731521EF9E000F93DC /* CoreGraphics.framework */; };
+		0F05877A1521EF9E000F93DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F0587781521EF9E000F93DC /* InfoPlist.strings */; };
+		0F05877C1521EF9E000F93DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F05877B1521EF9E000F93DC /* main.m */; };
+		0F0587801521EF9E000F93DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F05877F1521EF9E000F93DC /* AppDelegate.m */; };
+		0F05878B1521EFF7000F93DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0587891521EFF7000F93DC /* ViewController.m */; };
+		0F0587911521F019000F93DC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F05878D1521F019000F93DC /* ViewController_iPad.xib */; };
+		0F0587921521F019000F93DC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F05878F1521F019000F93DC /* ViewController_iPhone.xib */; };
+		0FDFF4BB1521F351005004B0 /* BashfulPasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDFF4BA1521F351005004B0 /* BashfulPasswordTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F05876B1521EF9E000F93DC /* Bashful Pass Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bashful Pass Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F05876F1521EF9E000F93DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F0587711521EF9E000F93DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F0587731521EF9E000F93DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F0587771521EF9E000F93DC /* Bashful Pass Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bashful Pass Demo-Info.plist"; sourceTree = "<group>"; };
+		0F0587791521EF9E000F93DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F05877B1521EF9E000F93DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F05877D1521EF9E000F93DC /* Bashful Pass Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bashful Pass Demo-Prefix.pch"; sourceTree = "<group>"; };
+		0F05877E1521EF9E000F93DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F05877F1521EF9E000F93DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F0587881521EFF7000F93DC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F0587891521EFF7000F93DC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F05878E1521F019000F93DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		0F0587901521F019000F93DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		0FDFF4B91521F351005004B0 /* BashfulPasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BashfulPasswordTextField.h; path = Source/BashfulPasswordTextField.h; sourceTree = "<group>"; };
+		0FDFF4BA1521F351005004B0 /* BashfulPasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BashfulPasswordTextField.m; path = Source/BashfulPasswordTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F0587681521EF9E000F93DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0587701521EF9E000F93DC /* UIKit.framework in Frameworks */,
+				0F0587721521EF9E000F93DC /* Foundation.framework in Frameworks */,
+				0F0587741521EF9E000F93DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0587601521EF9E000F93DC = {
+			isa = PBXGroup;
+			children = (
+				0F05878C1521EFFD000F93DC /* Source */,
+				0F0587751521EF9E000F93DC /* Bashful Pass Demo */,
+				0F05876E1521EF9E000F93DC /* Frameworks */,
+				0F05876C1521EF9E000F93DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F05876C1521EF9E000F93DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F05876B1521EF9E000F93DC /* Bashful Pass Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F05876E1521EF9E000F93DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F05876F1521EF9E000F93DC /* UIKit.framework */,
+				0F0587711521EF9E000F93DC /* Foundation.framework */,
+				0F0587731521EF9E000F93DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F0587751521EF9E000F93DC /* Bashful Pass Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0F05878D1521F019000F93DC /* ViewController_iPad.xib */,
+				0F05878F1521F019000F93DC /* ViewController_iPhone.xib */,
+				0F0587881521EFF7000F93DC /* ViewController.h */,
+				0F0587891521EFF7000F93DC /* ViewController.m */,
+				0F05877E1521EF9E000F93DC /* AppDelegate.h */,
+				0F05877F1521EF9E000F93DC /* AppDelegate.m */,
+				0F0587761521EF9E000F93DC /* Supporting Files */,
+			);
+			path = "Bashful Pass Demo";
+			sourceTree = "<group>";
+		};
+		0F0587761521EF9E000F93DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0587771521EF9E000F93DC /* Bashful Pass Demo-Info.plist */,
+				0F0587781521EF9E000F93DC /* InfoPlist.strings */,
+				0F05877B1521EF9E000F93DC /* main.m */,
+				0F05877D1521EF9E000F93DC /* Bashful Pass Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F05878C1521EFFD000F93DC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0FDFF4B91521F351005004B0 /* BashfulPasswordTextField.h */,
+				0FDFF4BA1521F351005004B0 /* BashfulPasswordTextField.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F05876A1521EF9E000F93DC /* Bashful Pass Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0587831521EF9E000F93DC /* Build configuration list for PBXNativeTarget "Bashful Pass Demo" */;
+			buildPhases = (
+				0F0587671521EF9E000F93DC /* Sources */,
+				0F0587681521EF9E000F93DC /* Frameworks */,
+				0F0587691521EF9E000F93DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bashful Pass Demo";
+			productName = "Bashful Pass Demo";
+			productReference = 0F05876B1521EF9E000F93DC /* Bashful Pass Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F0587621521EF9E000F93DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0F0587651521EF9E000F93DC /* Build configuration list for PBXProject "Bashful Pass Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F0587601521EF9E000F93DC;
+			productRefGroup = 0F05876C1521EF9E000F93DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F05876A1521EF9E000F93DC /* Bashful Pass Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F0587691521EF9E000F93DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F05877A1521EF9E000F93DC /* InfoPlist.strings in Resources */,
+				0F0587911521F019000F93DC /* ViewController_iPad.xib in Resources */,
+				0F0587921521F019000F93DC /* ViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0587671521EF9E000F93DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F05877C1521EF9E000F93DC /* main.m in Sources */,
+				0F0587801521EF9E000F93DC /* AppDelegate.m in Sources */,
+				0F05878B1521EFF7000F93DC /* ViewController.m in Sources */,
+				0FDFF4BB1521F351005004B0 /* BashfulPasswordTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F0587781521EF9E000F93DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0587791521EF9E000F93DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F05878D1521F019000F93DC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F05878E1521F019000F93DC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		0F05878F1521F019000F93DC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F0587901521F019000F93DC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F0587811521EF9E000F93DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F0587821521EF9E000F93DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F0587841521EF9E000F93DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bashful Pass Demo/Bashful Pass Demo-Prefix.pch";
+				INFOPLIST_FILE = "Bashful Pass Demo/Bashful Pass Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F0587851521EF9E000F93DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bashful Pass Demo/Bashful Pass Demo-Prefix.pch";
+				INFOPLIST_FILE = "Bashful Pass Demo/Bashful Pass Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F0587651521EF9E000F93DC /* Build configuration list for PBXProject "Bashful Pass Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0587811521EF9E000F93DC /* Debug */,
+				0F0587821521EF9E000F93DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0587831521EF9E000F93DC /* Build configuration list for PBXNativeTarget "Bashful Pass Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0587841521EF9E000F93DC /* Debug */,
+				0F0587851521EF9E000F93DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F0587621521EF9E000F93DC /* Project object */;
+}
