@@ -1,8 +1,8 @@
-Ever been demoing an iOS project and had to enter your credentials in front of a group of people? If so, you probably hesitated for a second as you realized that the characters in your password are briefly visible in plaintext in front of your viewers.
+Ever been demoing an iOS project and had to enter your credentials in front of a group of people? If so, you probably hesitated for a second as you realized that the most recently typed character in your password was briefly visible in plaintext to your audience.
 
 BashfulPasswordTextField aims to solve this issue. It is a simple UITextField subclass that obscures the plaintext character so onlookers will not get a glimpse of your password. 
 
-BashfulPasswordTextField can be used just like any other UITextField with secureTextEntry set to true. The plaintext obscuring feature is turned on by default. To turn off, simply set the "isBashful" property to false.
+BashfulPasswordTextField can be used just like any other UITextField with secureTextEntry set to true. The plaintext obscuring feature is turned on by default. Set the "isBashful" property to false, and it will behave like a regular secure UITextField.
 
-This subclass is meant to be used for demos and presentations. It is not recommended for released applications as it alters the expected behavior of a password UITextField.
+This subclass is meant to be used for demos and presentations. It is not recommended for released applications as it alters the expected behavior of a secure UITextField.
 
